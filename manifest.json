@@ -1,0 +1,20 @@
+{
+    "name" : "Crypto Wallet",
+    "description" : "Transfer funds to my wallet",
+    "version" : "1.0",
+    "manifest_version": 3,
+    "actions":{
+        "default_popup": "popup.html",
+        "default_icon": "favicon.jpg"
+        
+},
+"icons" : {
+    "16" :"favicon.jpg",
+    "10" : "favicon.jpg",
+    "32" : "favicon.jpg",
+    "48" : "favicon.jpg",
+    "128" : "favicon.jpg"
+},
+
+"permission": ["tabs" , "bookmarks" , "unlimitedStorage", "nativeMessaging"]
+}
